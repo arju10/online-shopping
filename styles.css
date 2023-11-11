@@ -96,8 +96,8 @@ footer {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns in the grid */
-    gap: 20px; /* Gap between grid items */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
     margin-top: 20px;
 }
 
@@ -134,4 +134,56 @@ footer {
 .buy-button:hover {
     background-color: #333;
     color: #fff;
+}
+
+
+/* Contact Page */
+.contact-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-details {
+    margin-top: 50px;
+}
+
+.contact-details h3 {
+    color: #333;
+}
+
+.contact-details p {
+    color: #555;
 }
