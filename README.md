@@ -1,1 +1,1 @@
-# online-shopping
+# https://et-shop.netlify.app/
